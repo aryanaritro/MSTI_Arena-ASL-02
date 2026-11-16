@@ -18,8 +18,6 @@ The firmware reads the pushbutton states directly from the ESP32 GPIO input regi
 
 The circuit uses an ESP32, two pushbuttons, and two LEDs to represent the controlled output channels.
 
-> **Testing scope:** The project was implemented and verified in the Wokwi simulator. Physical-hardware testing has not been claimed.
-
 ## Hardware and Pin Mapping
 
 | Component | ESP32 GPIO | Function |
