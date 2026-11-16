@@ -1,4 +1,4 @@
-# MSTI Arena Challenge 02 — Smart Home MQTT Controller & GPIO Input Registers
+# MSTIA Challenge 02 — Smart Home MQTT Controller & GPIO Input Registers
 
 An ESP32-based smart home controller developed for **ASL National Arena — Challenge #02**. The system controls two independent output channels using local pushbuttons and supports global ON/OFF commands over MQTT.
 
@@ -11,14 +11,10 @@ The controller provides two control methods:
 
 The firmware reads the pushbutton states directly from the ESP32 GPIO input registers instead of using `digitalRead()`.
 
-## Wokwi Simulation
-
-**Wokwi project:**  
-https://wokwi.com/projects/480779822184160257
-
-### Circuit Overview
-
+## Circuit Overview
 ![Challenge #02 circuit overview](docs/images/circuit.png)
+ 
+**Simulation:** [Open the Wokwi Project](https://wokwi.com/projects/480779822184160257)
 
 The circuit uses an ESP32, two pushbuttons, and two LEDs to represent the controlled output channels.
 
